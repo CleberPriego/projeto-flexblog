@@ -11,6 +11,13 @@ body{
     font-size: 1.5em;
     width: 100%;
 }
+hr{
+    height: 2px;
+    /* color: #122ab2; */
+    background-color: #122ab2;
+    border: 0px;
+}
+
 #iAtendimento{
     background-color: #122ab2;
     color: white;
@@ -57,11 +64,14 @@ main > h1{
     padding: 10px;
 }
 
+#sobre{
+    margin: 10px;
+}
 #sobre > h1{
     /* background-color: aqua;
     border: 2px solid black; */
     text-align: center;
-    padding: 20px;   
+    padding-top: 20px;   
 }
 #sobre > p{
     /* background-color: aqua;
