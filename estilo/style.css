@@ -97,6 +97,25 @@ main > h1{
     text-align: center;
     padding: 20px;
 }
+#purple {
+    height: 6px;
+    background-color: #6c42be;
+    border: 0px;
+}
+
+#pink {
+    height: 6px;
+    background-color: #bd0838;
+    border: 0px;
+    margin-top: 20px;
+}
+
+#blue {
+    height: 6px;
+    background-color: #52c5d8;
+    border: 0px;
+    margin-top: 20px;
+}
 #produto > div{
     /* background-color: aqua; */
     /* border: 2px solid black; */
