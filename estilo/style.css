@@ -129,4 +129,42 @@ main > h1{
     text-align:left;
     padding: 10px 0px 10px 30px
 }
-
+ #ivalor {
+    /* background-color: #f7f7f7;  */
+    background-color: #52c5d8;
+    padding: 20px;
+ }
+ .cHrValor{
+    width: 80vw;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+ }
+ #vCobre{
+    /* background-color: #52c5d8; */
+    background-color: #f7f7f7; 
+    border: 2px solid white;
+    text-align: center;
+    margin: 10px;
+ }
+ .tituloValor{
+    color: #a4a4a4;
+    margin-top: 20px;
+ }
+ .cvalor{
+    margin-top: 10px;
+ }
+ .cDados{
+    color: #a4a4a4;
+    margin-top: 10px;
+ }
+ .cPLink{
+    margin: 20px;
+    
+ }
+ .cALink{
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+ }
