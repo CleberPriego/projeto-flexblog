@@ -55,6 +55,9 @@ hr{
     color: white;
     font-size: 1.2em;
 }
+#imenu > u{
+    list-style: none;
+}
 
 main > h1{
     /* background-color: aqua;
@@ -140,7 +143,7 @@ main > h1{
     margin-top: 10px;
     background-color: white;
  }
- #vCobre{
+ .vCobre{
     /* background-color: #52c5d8; */
     background-color: #f7f7f7; 
     border: 2px solid white;
@@ -157,6 +160,7 @@ main > h1{
  .cDados{
     color: #a4a4a4;
     margin-top: 10px;
+    list-style: none;
  }
  .cPLink{
     margin: 20px;
