@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+#iAtendimento{
+    background-color: #122ab2;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cAtendimento{
+    /* flex: 1; */
+}
+#logo{
+    /* background-color: aqua; */
+    flex-direction: row;
+    justify-content: space-around;
+}
+#logo > span{
+    display: none;
+}
+.cLogo{
+    padding: 10px 0px 10px 0px;
+    /* background-color: antiquewhite; */
+}
+#imenu{
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#imenu > ul > li{
+    display: inline-block;
+    padding: 10px;
+    /* padding-right: 20px; */
+}
+
+/* main{
+    display: flex;
+    flex-wrap: wrap;
+} */
+main > h1{
+    margin:0px;
+    text-align:left ;
+    padding: 30px 0px 30px 0px;
+    width: 40vw;
+
+    /* flex-basis: 100%; */
+}
+#sobre{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 100%;
+    /* background-color: aqua;
+    border: 2px solid black; */
+}
+hr{
+    width: 100%;
+    margin: 40px 0px 40px 0px;
+}
+#sobre > h1{
+    flex-basis: 100%;
+    text-align: left;
+    padding-bottom: 20px;
+
+    /* background-color: aqua;
+    border: 2px solid black; */
+
+    
+}
+/* #secaoP {
+    display: flex;
+    flex-wrap: wrap;
+} */
+#secaoP > p{
+    width: 30vw;
+    padding: 10px 0px 10px 0px;
+}
+
+#imgSobre{
+    /* background-color: aqua;
+    border: 2px solid black; */
+    width: 38vw;
+    align-items: flex-start;
+}
+
+
+#produto{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    margin: 0px;
+
+    /* background-color: aqua;
+    border: 2px solid black; */
+}
+#produto > h1{
+    flex-basis: 100%;
+    text-align: left;
+    padding-bottom: 20px;
+}
+#secaoProdutos{
+    display: flex;
+    flex-wrap: wrap;
+}
+#produto > h1{
+    padding: 60px 0px 0px 30px
+}
+#secaoProdutos > div{
+    width: 25vw;
+    margin: 0px 10px 0px 0px;
+    justify-content: end;
+}
+#secaoProdutos > div > h2{
+    padding: 0px 0px 40px 30px
+}
