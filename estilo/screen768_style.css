@@ -52,12 +52,13 @@ main > h1{
     display: flex;
     flex-wrap: wrap;
     margin: 0px;
-
+    width: 100%;
     /* background-color: aqua;
     border: 2px solid black; */
 }
-#sobre > hr{
+hr{
     width: 100%;
+    margin: 40px 0px 40px 0px;
 }
 #sobre > h1{
     flex-basis: 100%;
@@ -84,8 +85,35 @@ main > h1{
     width: 38vw;
     align-items: flex-start;
 }
-#imgSobre > img{
-    /* flex-grow: 0; */
-    object-fit: contain;
 
+
+#produto{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    margin: 0px;
+
+    /* background-color: aqua;
+    border: 2px solid black; */
+}
+#produto > h1{
+    flex-basis: 100%;
+    text-align: left;
+    padding-bottom: 20px;
+}
+#secaoProdutos{
+    display: flex;
+    flex-wrap: wrap;
+}
+#produto > h1{
+    padding: 60px 0px 0px 30px
+}
+#secaoProdutos > div{
+    width: 25vw;
+    margin: 0px 10px 0px 0px;
+    justify-content: end;
+}
+#secaoProdutos > div > h2{
+    padding: 0px 0px 40px 30px
 }

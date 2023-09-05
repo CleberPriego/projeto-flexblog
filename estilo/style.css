@@ -101,6 +101,7 @@ main > h1{
     text-align: center;
     padding: 20px;
 }
+
 #purple {
     height: 6px;
     background-color: #6c42be;
@@ -120,13 +121,13 @@ main > h1{
     border: 0px;
     margin-top: 20px;
 }
-#produto > div{
+#secaoProdutos > div{
     /* background-color: aqua; */
     /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
 }
-#produto > div > h2{
+#secaoProdutos > div > h2{
     background-color: #f7f7f7;
     font-weight: bold;
     color: #a4a4a4;
