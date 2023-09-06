@@ -53,7 +53,7 @@ main > h1{
     align-items: center;
     justify-content: center;
 
-    margin: 0px;
+    margin-bottom: 50px;
     width: 100%;
 
 
@@ -61,7 +61,7 @@ main > h1{
     border: 2px solid black; */
 }
 hr{
-    width: 100%;
+    width: 80%;
 }
 #sobre > h1{
     flex-basis: 100%;
@@ -69,6 +69,7 @@ hr{
     padding-bottom: 20px;
     font-size: 2em;
 }
+
 #secaoP > p{
     width: 30vw;
     padding: 10px 0px 10px 0px;
