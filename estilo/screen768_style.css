@@ -58,7 +58,6 @@ main > h1{
 }
 hr{
     width: 100%;
-    margin: 40px 0px 40px 0px;
 }
 #sobre > h1{
     flex-basis: 100%;
@@ -91,9 +90,8 @@ hr{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-
     margin: 0px;
-
+    
     /* background-color: aqua;
     border: 2px solid black; */
 }
@@ -115,5 +113,36 @@ hr{
     justify-content: end;
 }
 #secaoProdutos > div > h2{
-    padding: 0px 0px 40px 30px
+    padding: 40px 0px 40px 30px
+}
+#ivalor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items:end;
+    /* background-color: aqua;
+    border: 2px solid black; */
+ }
+ .dBox{
+    width: 25vw;
+    /* margin: 0px; */
+    
+ }
+.cDados{
+    text-align: left;
+    padding-left: 50px;
+    list-style: disc;
+}
+
+#sInformation{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+
+    margin-top: 60px;
+}
+.dBoxInformation{
+   width: 30vw;; 
 }
