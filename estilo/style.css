@@ -217,9 +217,11 @@ main > h1{
     font-size: 2em;
     text-align: center; 
 }
-.italico{
+.cInfor3{
+    padding: 10px;
+    color: #a4a4a4;
     text-align: center;
-    font-style: italic;
+    
 }
 .formulario{
     padding-bottom: 20px;

@@ -41,8 +41,6 @@
     flex-wrap: wrap;
 } */
 main > h1{
-    margin:0px;
-    text-align:left ;
     padding: 30px 0px 30px 0px;
     width: 40vw;
 
@@ -51,8 +49,14 @@ main > h1{
 #sobre{
     display: flex;
     flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
     margin: 0px;
     width: 100%;
+
+
     /* background-color: aqua;
     border: 2px solid black; */
 }
@@ -61,18 +65,10 @@ hr{
 }
 #sobre > h1{
     flex-basis: 100%;
-    text-align: left;
+    /* text-align: left; */
     padding-bottom: 20px;
-
-    /* background-color: aqua;
-    border: 2px solid black; */
-
-    
+    font-size: 2em;
 }
-/* #secaoP {
-    display: flex;
-    flex-wrap: wrap;
-} */
 #secaoP > p{
     width: 30vw;
     padding: 10px 0px 10px 0px;
@@ -92,13 +88,16 @@ hr{
     width: 100%;
     margin: 0px;
     
+    align-items: center;
+    justify-content: center;
     /* background-color: aqua;
     border: 2px solid black; */
 }
 #produto > h1{
     flex-basis: 100%;
-    text-align: left;
+    text-align: center;
     padding-bottom: 20px;
+    font-size: 2em;
 }
 #secaoProdutos{
     display: flex;
@@ -145,4 +144,46 @@ hr{
 }
 .dBoxInformation{
    width: 30vw;; 
+}
+
+#assinatura{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-around;
+}
+#assinatura > div{
+    margin: 30px;
+}
+.nomeNew{
+    text-align: left; 
+}
+.cInfor3{
+    
+    width: 25vw;
+    text-align: left;
+    padding: 10px 0px 10px 0px;
+}
+
+.formulario{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-bottom: 0px;
+}
+
+#imail{
+    height: 6vh;
+    width: 30vw;
+    border: 2px solid #2c70ff;
+}
+#submeter{
+    background-color: #2c70ff;
+    border: 2px solid #2c70ff;
+    color: white;
+    font-size: 1em;
+    padding: 5px 10px 5px 10px;
 }
